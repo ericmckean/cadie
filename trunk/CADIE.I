@@ -1,3 +1,36 @@
+        DO ,1 <- #31
+        DO ,1SUB#31 <- #92
+    PLEASE ,1SUB#30 <- #91
+        DO ,1SUB#29 <- #90
+        DO ,1SUB#28 <- #76
+        DO ,1SUB#27 <- #70
+    PLEASE ,1SUB#26 <- #74
+        DO ,1SUB#25 <- #67
+        DO ,1SUB#24 <- #84
+        DO ,1SUB#23 <- #69
+    PLEASE ,1SUB#22 <- #68
+        DO ,1SUB#21 <- #65
+        DO ,1SUB#20 <- #79
+        DO ,1SUB#19 <- #70
+    PLEASE ,1SUB#18 <- #83
+        DO ,1SUB#17 <- #68
+        DO ,1SUB#16 <- #83
+        DO ,1SUB#15 <- #65
+    PLEASE ,1SUB#14 <- #65
+        DO ,1SUB#13 <- #77
+        DO ,1SUB#12 <- #68
+        DO ,1SUB#11 <- #80
+    PLEASE ,1SUB#10 <- #88
+        DO ,1SUB#9 <- #76
+        DO ,1SUB#8 <- #68
+        DO ,1SUB#7 <- #88
+    PLEASE ,1SUB#6 <- #73
+        DO ,1SUB#5 <- #95
+        DO ,1SUB#4 <- #68
+        DO ,1SUB#3 <- #70
+    PLEASE ,1SUB#2 <- #95
+        DO ,1SUB#1 <- #91
+        DO STASH ,1
         DO ,1 <- #28
         DO ,1SUB#1 <- #110
         DO ,1SUB#2 <- #142
@@ -27,5 +60,7 @@
         DO ,1SUB#26 <- #144
         DO ,1SUB#27 <- #114
     PLEASE ,1SUB#28 <- #36
+    PLEASE IGNORE ,1
+        DO RETRIEVE ,1
         DO READ OUT ,1
     PLEASE GIVE UP
