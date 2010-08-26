@@ -30,7 +30,10 @@
         DO ,1SUB#3 <- #70
     PLEASE ,1SUB#2 <- #95
         DO ,1SUB#1 <- #91
+        DO IGNORE ,1
         DO STASH ,1
+    PLEASE REMEMBER ,1
+        DO RETRIEVE ,1
         DO ,1 <- #28
         DO ,1SUB#1 <- #110
         DO ,1SUB#2 <- #142
@@ -60,7 +63,5 @@
         DO ,1SUB#26 <- #144
         DO ,1SUB#27 <- #114
     PLEASE ,1SUB#28 <- #36
-    PLEASE IGNORE ,1
-        DO RETRIEVE ,1
         DO READ OUT ,1
     PLEASE GIVE UP
